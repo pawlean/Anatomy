@@ -1,0 +1,665 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+body {
+      max-width: 100%;
+    overflow-x: hidden;
+      font-size: 100%;
+font-color: #3A3D3B;
+}
+/* links */
+a:link {
+    color: white;
+}
+
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+.parallax-bg {
+padding: 350px 0;
+background-image: url(http://i598.photobucket.com/albums/tt69/PromiseCoNr/Background1_zpsr1l8qeej-0.png);   
+background-attachment: fixed;
+ background-size: cover;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+.parallax-bg1 {
+padding: 100px 0;
+background-repeat: repeat;
+background-attachment: fixed;
+-webkit-transition: all 0.2s ease;
+ -moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
+background-color: #fff;
+}
+.parallax-bg2 {
+padding: 300px 0;
+background-image: url(globe.png);
+background-repeat: repeat;
+background-size: cover;
+background-attachment: fixed;
+ -webkit-transition: all 0.2s ease;
+ -moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+.parallax-bg3 {
+background-repeat: repeat;
+background-attachment: fixed;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
+padding: 100px 0;
+}
+.parallax-bg4 {
+padding: 100 0;
+background-color: #f1f1f1;
+background-repeat: repeat;
+background-attachment: fixed;
+ -webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+
+.parallax-bg5 {
+padding: 100px 0;
+background-repeat: repeat;
+background-attachment: fixed;
+ -webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+
+.parallax-bg h1 {
+text-align: center;
+text-transform: uppercase;
+color: black;
+font-size: 70px;
+font-family: Arial;
+}
+.parallax-bg h2 {
+text-align: center;
+color: #fff;
+font-family: 'montserratlight', "Helvetica Neue", sans-serif;
+font-size: 20px;
+line-height: 1.5625rem
+}
+.hsContent1 p {
+font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:normal;
+font-size: 15px;
+text-align: center;
+color: #3A3D3B;
+margin: 0;
+}
+
+p.important {
+  font-size: 27px;
+ text-transform: uppercase;
+}
+
+
+h1 {
+font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:normal;
+font-size: 40px;
+text-align: center;
+color: #000;
+margin: 0;
+padding-top: 50px;
+}
+.extra { 
+    display: none;
+}
+
+p:hover .extra {
+    display: inline;
+    font-size: 18px;
+    font-family: "Palatino Linotype";
+text-transform: none;
+}
+
+.parallax-bg h1 {
+color: white;
+font-size: 50px;
+text-transform: uppercase;
+letter-spacing: -4px;
+font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h3 {
+font-weight:normal;
+ font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    padding-left: 30px;
+    }
+
+h4 {
+font-weight:normal;
+ font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    padding-left: 30px;
+    }
+h5 {
+      font-size: 15px;
+      color: white;
+}
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url("montserrat/Montserrat-Light.otf");
+    font-weight: normal;
+    font-style: normal
+    letter-spacing: -5px;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url("montserrat/Montserrat-Regular.otf");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'montserratsemi_bold';
+    src: url("montserrat/Montserrat-SemiBold.otf");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'montserratultralight';
+    src: url("montserrat/Montserrat-UltraLight.otf");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+
+}
+.basic-grey h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    margin: -10px -15px 30px -10px;;
+
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 30px;
+
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 15px;
+    line-height:15px;
+    font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        box-shadow: inset 0px 1px 4px #ECECEC;
+
+
+}
+
+
+
+
+.basic-grey .button {
+    background: #E27575;
+    padding: 20px 40px 20px 40px;
+ font-size: 16px;
+ font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.basic-grey .button:hover {
+background: #CF7A7A;
+text-decoration: none;
+}
+
+
+
+.bcg {
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 100%;
+width: 100%;
+}
+
+.hsContainer {
+width: 100%;
+height: 100%;
+overflow: hidden;
+position: relative;
+}
+
+.hsContent {
+max-width: 700px;
+position: absolute;
+left: 60%;
+top: 30%;
+right: 10%;
+}
+.hsContent h2  {
+color: #fff;
+background-color: rgba(0,0,0,0.8);
+padding: 10px 5px;
+font-size: 22px;
+font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+letter-spacing: -1px;
+font-weight:normal;
+margin-bottom: 12px;
+}
+.hsContent p {
+width: 400px;
+color: #fff;
+}
+.hsContent a {
+color: #b2b2b2;
+text-decoration: none;
+}
+ .hsContent1 {
+max-width: 450px;
+position: absolute;
+left: 10%;
+top: 30%;
+right: 15%;
+}
+.hsContent1 h2  {
+color: #fff;
+background-color: rgba(0,0,0,0.8);
+padding: 10px 5px;
+font-size: 20px;
+font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+letter-spacing: -1px;
+font-weight:normal;
+margin-bottom: 12px;
+}
+ .hsContent2 {
+position: absolute;
+top: 80%;
+right: 10%;
+max-width: 510px;
+}
+.hsContent2 h2  {
+color: #fff;
+background-color: rgba(0,0,0,0.8);
+padding: 10px 15px;
+font-size: 18px;
+font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:normal;
+}
+
+
+.test {
+border-radius: 50%;
+margin: 0;
+height: 100px;
+}
+
+.img-circle {
+border-radius: 50%;
+border: 3px solid black;
+width: 250px;
+height: 280px;
+margin: 0;
+}
+
+.button {
+display: inline-block;
+text-shadow: 1px 1px 1px #aaa;
+}
+.imganatomy {
+      max-width: 100%;
+    height: auto;
+
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+      font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding: 10px;
+}
+blockquote {
+    position: relative;
+    margin: 0;
+    padding: 20px 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'montserratlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+blockquote:before, blockquote:after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 50px;
+    line-height: 1;
+}
+blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    top: 0;
+    right: 0;
+    content: "\201D";
+
+}
+
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: #E27575 solid 6px;
+  border-radius: 50px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}
+
+
+/* animated elements */
+.animateblock {
+  padding: 8px 0;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.55s linear;
+  -moz-transition: all 0.55s linear;
+  transition: all 0.55s linear;
+}
+
+.animateblock.animated {
+  opacity: 1;
+}
+
+/* animation transition styles */
+.animateblock.left {
+  margin-left: -2%;
+}
+.animateblock.left.animated {
+  margin-left: 12%;
+}
+
+.animateblock.right {
+  display: block;
+  margin-left: 100%;
+}
+.animateblock.right.animated {
+  margin-left: 70%;
+}
+
+.animateblock.top {
+  display: block;
+color: black;  width: auto;
+  text-align: center;
+  margin-top: -25px;
+}
+.animateblock.top.animated {
+  margin-top: 0px;
+}
+
+.animateblock.btm {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.animateblock.btm.animated {
+  margin-top: 0;
+}
+
+.animateblock.centerleft {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-right: -10%;
+}
+.animateblock.centerleft.animated {
+  margin-right: 0;
+}
+
+.animateblock.centerright {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-left: -10%;
+}
+.animateblock.centerright.animated {
+  margin-left: 0;
+}
+
+.animateblock.center {
+  margin-left: 2%;
+}
+.animateblock.center.animated {
+  margin-left: 42%;
+}
+
+.animateblock.size {
+  display: block;
+  width: 10%;
+  text-align: center;
+}
+.animateblock.size.animated {
+  width: 100%;
+  height: 100%;
+}
+.animateblock.size img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  body {
+    height: auto;
+  }
+.hsContent {
+position: absolute;
+left: 0%;
+top: 70%;
+right: 0%;
+}
+
+.hsContent1 {
+  position:absolute;
+  right: 0%;
+  top: 0%;
+  left: 0%;
+}
+ .hsContent2 {
+position: absolute;
+top: 50%;
+right: 0%;
+max-width: 510px;
+}
+
+#Image-Maps-Com-image-maps-2016-02-24-120956{
+   width: 100%;
+   height: auto;
+}
+
+ #Image-Maps-Com-image-maps-2016-02-23-121940{
+   width: 100%;
+   height: auto;
+ }
+
+.parallax-bg {
+
+ width:100%;
+   width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+
+      }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+.hsContent {
+position: absolute;
+left: 0%;
+top: 70%;
+right: 0%;
+}
+
+.hsContent1 {
+  position:absolute;
+  left: 0%;
+  width: 700px;
+  right: 0%;
+  top: 0%;
+}
+
+
+#Image-Maps-Com-image-maps-2016-02-24-120956{
+   width: 100%;
+   height: auto;
+}
+
+ #Image-Maps-Com-image-maps-2016-02-23-121940{
+   width: 100%;
+   height: auto;
+ }
+.parallax-bg {
+
+ width:100%;
+   width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+
+      }
+}
